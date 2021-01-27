@@ -67,12 +67,12 @@ User.init(
         sequelize,
         // don't automatically create timestamp fields
         timestamps: false,
-        // don't pluralize name ofatabase table
+        // don't pluralize name of database table
         freezeTableName: true,
         // use underscores
         underscored: true,
-        // mode name stays lowercase
-        modelname: 'user'
+        // model name stays lowercase
+        modelName: 'user'
     }
 );
 
